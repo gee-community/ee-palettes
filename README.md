@@ -3,7 +3,7 @@
 
 
 <h1 class="title toc-ignore">GEE-Palettes</h1>
-<h4 class="author"><em>Gennadii Donchyts &amp; Justin Braaten</em></h4>
+<h4 class="author"><em>Gennadii Donchyts, Fedor Baart &amp; Justin Braaten</em></h4>
 
 </div>
 
