@@ -1,0 +1,120 @@
+---
+title: "ee-palettes"
+author: "Gennadii Donchyts, Fedor Baart & Justin Braaten"
+output:
+  html_document:
+    self_contained: no
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# About
+
+*ee-palettes* is a module for generating color palettes in [Google Earth Engine](https://earthengine.google.com/) (EE) to be applied to mapped data.
+
+
+# Add the module
+
+Visit this [URL](https://code.earthengine.google.com/?accept_repo=users/gena/palettes) to add the module to the Reader repository of your EE account. After the module is added, you can find the source code in the Script Manager under: *Reader:users/gena/packages/palettes*. 
+
+# How to use
+
+#### Load the module
+
+You can access the ee-palettes through the `require()` function. Running the following line will make the palettes available to you through JavaScript (JS) object access notation. The returned variable will be a nested series of JS objects ending in lists of hex colors. 
+
+```
+var palettes = require('users/gena/packages:palettes');
+
+```
+
+#### Find a palette
+
+Find a palette you like from the list below. Each palette is defined by a group and a name, which are separated by a period (JS object dot notation). 
+
+To retrieve a desired palette, use JS object notation to specify the group, name, and number of colors. The number of colors available varies by palette. To see what color levels are available, print the palette to the Console. Note that all non-ColorBrewer palettes have only 7 colors, so always use 7 as the 'color levels' property for these palettes.
+
+```
+print(palettes.colorbrewer.RdYlGn);
+```
+
+
+#### Define a palette
+
+After determining the palette group, name, and color level, set the palette as a variable.
+
+```
+var palette = palettes.colorbrewer.RdYlGn[9];
+```
+
+#### Apply a palette
+
+To apply the defined palette to map data, set the palette variable as the value for the `palette` key in the `visParams` object supplied to the `Map.addLayer()` function. It is also helpful to determine and define appropriate `min` and `max` values, to ensure a good stretch. Here is a complete working example for loading the *ee-palettes* module, defining a palette, and applying it to a MODIS NDVI image.
+
+
+```
+// Make a palette: a list of hex strings
+var palettes = require('users/gena/packages:palettes');
+var palette = palettes.colorbrewer.RdYlGn[9]
+
+// Load a MODIS image
+var img = ee.Image('MODIS/006/MOD09GA/2012_03_09');
+
+// Calculate NDVI
+var ndvi = img.normalizedDifference(['sur_refl_b02', 'sur_refl_b01']);
+
+// Center the map
+Map.setCenter(-120.7671, 40.8328, 7);
+
+// Display NDVI with defined palette stretched between selected min and max
+Map.addLayer(ndvi, {min: -0.3, max: 0.7, palette: palette}, 'NDVI');
+```
+
+# Palette manipulation
+
+#### Palette reverse
+
+Reverse a palette with the `reverse()` function.
+
+```
+var palette = palettes.colorbrewer.RdYlGn[9].reverse();
+
+```
+
+#### Palette subset
+
+If you only want to use a section of a palette, you can subset the colors you want using the `slice()` function. For instance, if you only want the pink to yellow section of the *misc.gnuplot* palette, use the following palette definition.
+
+```
+var palette = palettes.misc.gnuplot[7].slice(3,7);
+```
+
+# Palettes
+
+```{r pals, echo=FALSE, results='asis'}
+
+files = list.files('../pals', '*.png', full.names=T)
+bases = basename(files)
+names = substr(bases, 1, nchar(bases)-4)
+palInfo = read.csv("pals_info.csv", stringsAsFactors = F)
+groups = unique(palInfo$group)
+groups = c('ColorBrewer Sequential','ColorBrewer Diverging','ColorBrewer Qualitative', 
+          'matplotlib', 'cmocean', 'Niccoli', 'Kovesi', 'Misc')
+
+for(g in 1:length(groups)){
+  cat('\n\n###',groups[g],'\n\n')
+  these = which(palInfo$group == groups[g])
+  for(r in 1:length(these)){
+    thisOne = which(names == palInfo$jsName[these[r]])
+    pal = paste0('<img src="','./pals/', basename(files[thisOne]),'"> ',palInfo$figName[these[r]],'<br/>')
+    cat(pal)                
+  }
+}
+
+```
+
+# References
+
+Palettes were derived from the *pals* R library. Please see its [documentation](https://cran.r-project.org/web/packages/pals/pals.pdf) and [repository](https://github.com/kwstat/pals) for palette source information.
