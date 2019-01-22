@@ -38,7 +38,9 @@
 <div id="apply-a-palette" class="section level4">
 <h4>Apply a palette</h4>
 <p>To apply the defined palette to map data, set the palette variable as the value for the <code>palette</code> key in the <code>visParams</code> object supplied to the <code>Map.addLayer()</code> function. It is also helpful to determine and define appropriate <code>min</code> and <code>max</code> values, to ensure a good stretch. Here is a complete working example for loading the <em>ee-palettes</em> module, defining a palette, and applying it to a MODIS NDVI image.</p>
-<pre><code>// Make a palette: a list of hex strings
+
+```
+// Make a palette: a list of hex strings
 var palettes = require(&#39;users/gena/packages:palettes&#39;);
 var palette = palettes.colorbrewer.RdYlGn[9];
 
@@ -52,7 +54,9 @@ var ndvi = img.normalizedDifference([&#39;sur_refl_b02&#39;, &#39;sur_refl_b01&#
 Map.setCenter(-120.7671, 40.8328, 7);
 
 // Display NDVI with defined palette stretched between selected min and max
-Map.addLayer(ndvi, {min: -0.3, max: 0.7, palette: palette}, &#39;NDVI&#39;);</code></pre>
+Map.addLayer(ndvi, {min: -0.3, max: 0.7, palette: palette}, &#39;NDVI&#39;);
+```
+
 </div>
 </div>
 <div id="palette-manipulation" class="section level1">
