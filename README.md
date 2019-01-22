@@ -41,20 +41,20 @@
 
 ```
 // Make a palette: a list of hex strings
-var palettes = require(&#39;users/gena/packages:palettes&#39;);
+var palettes = require('users/gena/packages:palettes';);
 var palette = palettes.colorbrewer.RdYlGn[9];
 
 // Load a MODIS image
-var img = ee.Image(&#39;MODIS/006/MOD09GA/2012_03_09&#39;);
+var img = ee.Image('MODIS/006/MOD09GA/2012_03_09');
 
 // Calculate NDVI
-var ndvi = img.normalizedDifference([&#39;sur_refl_b02&#39;, &#39;sur_refl_b01&#39;]);
+var ndvi = img.normalizedDifference(['sur_refl_b02', 'sur_refl_b01']);
 
 // Center the map
 Map.setCenter(-120.7671, 40.8328, 7);
 
 // Display NDVI with defined palette stretched between selected min and max
-Map.addLayer(ndvi, {min: -0.3, max: 0.7, palette: palette}, &#39;NDVI&#39;);
+Map.addLayer(ndvi, {min: -0.3, max: 0.7, palette: palette}, 'NDVI');
 ```
 
 </div>
