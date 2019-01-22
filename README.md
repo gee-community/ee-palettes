@@ -1,7 +1,7 @@
 <div class="fluid-row" id="header">
 
 
-<img src='./misc/ee-palettes-icon.png' style='float:right' height='200' width='auto'>
+<img src='./misc/ee-palettes-icon.png' height='175' width='auto' align='right'>
 <h1 class="title toc-ignore">ee-palettes</h1>
 <h4 class="author"><em>Gennadii Donchyts, Fedor Baart &amp; Justin Braaten</em></h4>
 
