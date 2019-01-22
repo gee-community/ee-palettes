@@ -32,9 +32,9 @@ var palettes = require('users/gena/packages:palettes');
 
 #### Find a palette
 
-Find a palette you like from the list below. Each palette is defined by a group and a name, which are separated by a period (JS object dot notation). 
+Find a palette you like from the list below. Each palette is defined by a group and a name, which are separated by a period (JS object dot notation), and a color level. 
 
-To retrieve a desired palette, use JS object notation to specify the group, name, and number of colors. The number of colors available varies by palette. To see what color levels are available, print the palette to the Console. Note that all non-ColorBrewer palettes have only 7 colors, so always use 7 as the 'color levels' property for these palettes.
+To retrieve a desired palette, use JS object notation to specify the group, name, and number of color levels. The number of colors available varies by palette, which are listed following the palette names below. Note that all non-ColorBrewer palettes have only 7 colors, so always use 7 as the 'color levels' property for these palettes.
 
 ```
 print(palettes.colorbrewer.RdYlGn);
@@ -108,7 +108,7 @@ for(g in 1:length(groups)){
   these = which(palInfo$group == groups[g])
   for(r in 1:length(these)){
     thisOne = which(names == palInfo$jsName[these[r]])
-    pal = paste0('<img src="','./pals/', basename(files[thisOne]),'"> ',palInfo$figName[these[r]],'<br/>')
+    pal = paste0('<img src="','./pals/', basename(files[thisOne]),'"> ',palInfo$figName[these[r]],' | ',gsub("|",",",palInfo$levels[these[r]], fixed=T),'<br/>')
     cat(pal)                
   }
 }
