@@ -25,7 +25,6 @@
 ```javascript
 var palettes = require('users/gena/packages:palettes');
 ```
-
 </div>
 <div id="define-a-palette" class="section level4">
 <h4>Define a palette</h4>
@@ -60,6 +59,9 @@ Map.setCenter(-120.7671, 40.8328, 7);
 // Display NDVI with defined palette stretched between selected min and max
 Map.addLayer(ndvi, {min: -0.3, max: 0.7, palette: palette}, 'NDVI');
 ```
+
+Script: <a src="https://code.earthengine.google.com/887c87048511af1e4083455d9f79f4d4">https://code.earthengine.google.com/887c87048511af1e4083455d9f79f4d4</a>
+
 
 </div>
 </div>
