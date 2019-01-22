@@ -40,8 +40,7 @@
 <p>To apply the defined palette to map data, set the palette variable as the value for the <code>palette</code> key in the <code>visParams</code> object supplied to the <code>Map.addLayer()</code> function. It is also helpful to determine and define appropriate <code>min</code> and <code>max</code> values, to ensure a good stretch. Here is a complete working example for loading the <em>ee-palettes</em> module, defining a palette, and applying it to a MODIS NDVI image.</p>
 <pre><code>// Make a palette: a list of hex strings
 var palettes = require(&#39;users/gena/packages:palettes&#39;);
-var palette = palettes.colorbrewer.RdYlGn[9]
-
+var palette = palettes.colorbrewer.RdYlGn[9];
 
 // Load a MODIS image
 var img = ee.Image(&#39;MODIS/006/MOD09GA/2012_03_09&#39;);
