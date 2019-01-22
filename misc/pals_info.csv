@@ -1,124 +1,124 @@
-palName,figName,group,jsName
-coolwarm,misc.coolwarm,Misc,coolwarm
-warmcool,misc.warmcool,Misc,warmcool
-cubehelix,misc.cubehelix,Misc,cubehelix
-gnuplot,misc.gnuplot,Misc,gnuplot
-jet,misc.jet,Misc,jet
-parula,misc.parula,Misc,parula
-tol.rainbow,misc.tol_rainbow,Misc,tol_rainbow
-cividis,misc.cividis,Misc,cividis
-cubicyf,niccoli.cubicyf,Niccoli,cubicyf
-cubicl,niccoli.cubicl,Niccoli,cubicl
-isol,niccoli.isol,Niccoli,isol
-linearl,niccoli.linearl,Niccoli,linearl
-linearlhot,niccoli.linearlhot,Niccoli,linearlhot
-brewer.accent,colorbrewer.Accent,ColorBrewer Qualitative,Accent
-brewer.dark2,colorbrewer.Dark2,ColorBrewer Qualitative,Dark2
-brewer.paired,colorbrewer.Paired,ColorBrewer Qualitative,Paired
-brewer.pastel1,colorbrewer.Pastel1,ColorBrewer Qualitative,Pastel1
-brewer.pastel2,colorbrewer.Pastel2,ColorBrewer Qualitative,Pastel2
-brewer.set1,colorbrewer.Set1,ColorBrewer Qualitative,Set1
-brewer.set2,colorbrewer.Set2,ColorBrewer Qualitative,Set2
-brewer.set3,colorbrewer.Set3,ColorBrewer Qualitative,Set3
-brewer.blues,colorbrewer.Blues,ColorBrewer Sequential,Blues
-brewer.bugn,colorbrewer.BuGn,ColorBrewer Sequential,BuGn
-brewer.bupu,colorbrewer.BuPu,ColorBrewer Sequential,BuPu
-brewer.gnbu,colorbrewer.GnBu,ColorBrewer Sequential,GnBu
-brewer.greens,colorbrewer.Greens,ColorBrewer Sequential,Greens
-brewer.greys,colorbrewer.Greys,ColorBrewer Sequential,Greys
-brewer.oranges,colorbrewer.Oranges,ColorBrewer Sequential,Oranges
-brewer.orrd,colorbrewer.OrRd,ColorBrewer Sequential,OrRd
-brewer.pubu,colorbrewer.PuBu,ColorBrewer Sequential,PuBu
-brewer.pubugn,colorbrewer.PuBuGn,ColorBrewer Sequential,PuBuGn
-brewer.purd,colorbrewer.PuRd,ColorBrewer Sequential,PuRd
-brewer.purples,colorbrewer.Purples,ColorBrewer Sequential,Purples
-brewer.rdpu,colorbrewer.RdPu,ColorBrewer Sequential,RdPu
-brewer.reds,colorbrewer.Reds,ColorBrewer Sequential,Reds
-brewer.ylgn,colorbrewer.YlGn,ColorBrewer Sequential,YlGn
-brewer.ylgnbu,colorbrewer.YlGnBu,ColorBrewer Sequential,YlGnBu
-brewer.ylorbr,colorbrewer.YlOrBr,ColorBrewer Sequential,YlOrBr
-brewer.ylorrd,colorbrewer.YlOrRd,ColorBrewer Sequential,YlOrRd
-brewer.brbg,colorbrewer.BrBG,ColorBrewer Diverging,BrBG
-brewer.piyg,colorbrewer.PiYG,ColorBrewer Diverging,PiYG
-brewer.prgn,colorbrewer.PRGn,ColorBrewer Diverging,PRGn
-brewer.puor,colorbrewer.PuOr,ColorBrewer Diverging,PuOr
-brewer.rdbu,colorbrewer.RdBu,ColorBrewer Diverging,RdBu
-brewer.rdgy,colorbrewer.RdGy,ColorBrewer Diverging,RdGy
-brewer.rdylbu,colorbrewer.RdYlBu,ColorBrewer Diverging,RdYlBu
-brewer.rdylgn,colorbrewer.RdYlGn,ColorBrewer Diverging,RdYlGn
-brewer.spectral,colorbrewer.Spectral,ColorBrewer Diverging,Spectral
-ocean.thermal,cmocean.Thermal,cmocean,Thermal
-ocean.haline,cmocean.Haline,cmocean,Haline
-ocean.solar,cmocean.Solar,cmocean,Solar
-ocean.ice,cmocean.Ice,cmocean,Ice
-ocean.gray,cmocean.Gray,cmocean,Gray
-ocean.oxy,cmocean.Oxy,cmocean,Oxy
-ocean.deep,cmocean.Deep,cmocean,Deep
-ocean.dense,cmocean.Dense,cmocean,Dense
-ocean.algae,cmocean.Algae,cmocean,Algae
-ocean.matter,cmocean.Matter,cmocean,Matter
-ocean.turbid,cmocean.Turbid,cmocean,Turbid
-ocean.speed,cmocean.Speed,cmocean,Speed
-ocean.amp,cmocean.Amp,cmocean,Amp
-ocean.tempo,cmocean.Tempo,cmocean,Tempo
-ocean.phase,cmocean.Phase,cmocean,Phase
-ocean.balance,cmocean.Balance,cmocean,Balance
-ocean.delta,cmocean.Delta,cmocean,Delta
-ocean.curl,cmocean.Curl,cmocean,Curl
-magma,matplotlib.magma,matplotlib,magma
-inferno,matplotlib.inferno,matplotlib,inferno
-plasma,matplotlib.plasma,matplotlib,plasma
-viridis,matplotlib.viridis,matplotlib,viridis
-kovesi.cyclic_grey_15_85_c0,kovesi.cyclic_grey_15_85_c0,Kovesi,cyclic_grey_15_85_c0
-kovesi.cyclic_grey_15_85_c0_s25,kovesi.cyclic_grey_15_85_c0_s25,Kovesi,cyclic_grey_15_85_c0_s25
-kovesi.cyclic_mrybm_35_75_c68,kovesi.cyclic_mrybm_35_75_c68,Kovesi,cyclic_mrybm_35_75_c68
-kovesi.cyclic_mrybm_35_75_c68_s25,kovesi.cyclic_mrybm_35_75_c68_s25,Kovesi,cyclic_mrybm_35_75_c68_s25
-kovesi.cyclic_mygbm_30_95_c78,kovesi.cyclic_mygbm_30_95_c78,Kovesi,cyclic_mygbm_30_95_c78
-kovesi.cyclic_mygbm_30_95_c78_s25,kovesi.cyclic_mygbm_30_95_c78_s25,Kovesi,cyclic_mygbm_30_95_c78_s25
-kovesi.cyclic_wrwbw_40_90_c42,kovesi.cyclic_wrwbw_40_90_c42,Kovesi,cyclic_wrwbw_40_90_c42
-kovesi.cyclic_wrwbw_40_90_c42_s25,kovesi.cyclic_wrwbw_40_90_c42_s25,Kovesi,cyclic_wrwbw_40_90_c42_s25
-kovesi.diverging_isoluminant_cjm_75_c23,kovesi.diverging_isoluminant_cjm_75_c23,Kovesi,diverging_isoluminant_cjm_75_c23
-kovesi.diverging_isoluminant_cjm_75_c24,kovesi.diverging_isoluminant_cjm_75_c24,Kovesi,diverging_isoluminant_cjm_75_c24
-kovesi.diverging_isoluminant_cjo_70_c25,kovesi.diverging_isoluminant_cjo_70_c25,Kovesi,diverging_isoluminant_cjo_70_c25
-kovesi.diverging_linear_bjr_30_55_c53,kovesi.diverging_linear_bjr_30_55_c53,Kovesi,diverging_linear_bjr_30_55_c53
-kovesi.diverging_linear_bjy_30_90_c45,kovesi.diverging_linear_bjy_30_90_c45,Kovesi,diverging_linear_bjy_30_90_c45
-kovesi.diverging_rainbow_bgymr_45_85_c67,kovesi.diverging_rainbow_bgymr_45_85_c67,Kovesi,diverging_rainbow_bgymr_45_85_c67
-kovesi.diverging_bkr_55_10_c35,kovesi.diverging_bkr_55_10_c35,Kovesi,diverging_bkr_55_10_c35
-kovesi.diverging_bky_60_10_c30,kovesi.diverging_bky_60_10_c30,Kovesi,diverging_bky_60_10_c30
-kovesi.diverging_bwr_40_95_c42,kovesi.diverging_bwr_40_95_c42,Kovesi,diverging_bwr_40_95_c42
-kovesi.diverging_bwr_55_98_c37,kovesi.diverging_bwr_55_98_c37,Kovesi,diverging_bwr_55_98_c37
-kovesi.diverging_cwm_80_100_c22,kovesi.diverging_cwm_80_100_c22,Kovesi,diverging_cwm_80_100_c22
-kovesi.diverging_gkr_60_10_c40,kovesi.diverging_gkr_60_10_c40,Kovesi,diverging_gkr_60_10_c40
-kovesi.diverging_gwr_55_95_c38,kovesi.diverging_gwr_55_95_c38,Kovesi,diverging_gwr_55_95_c38
-kovesi.diverging_gwv_55_95_c39,kovesi.diverging_gwv_55_95_c39,Kovesi,diverging_gwv_55_95_c39
-kovesi.isoluminant_cgo_70_c39,kovesi.isoluminant_cgo_70_c39,Kovesi,isoluminant_cgo_70_c39
-kovesi.isoluminant_cgo_80_c38,kovesi.isoluminant_cgo_80_c38,Kovesi,isoluminant_cgo_80_c38
-kovesi.isoluminant_cm_70_c39,kovesi.isoluminant_cm_70_c39,Kovesi,isoluminant_cm_70_c39
-kovesi.rainbow_bgyr_35_85_c72,kovesi.rainbow_bgyr_35_85_c72,Kovesi,rainbow_bgyr_35_85_c72
-kovesi.rainbow_bgyr_35_85_c73,kovesi.rainbow_bgyr_35_85_c73,Kovesi,rainbow_bgyr_35_85_c73
-kovesi.rainbow_bgyrm_35_85_c69,kovesi.rainbow_bgyrm_35_85_c69,Kovesi,rainbow_bgyrm_35_85_c69
-kovesi.rainbow_bgyrm_35_85_c71,kovesi.rainbow_bgyrm_35_85_c71,Kovesi,rainbow_bgyrm_35_85_c71
-kovesi.linear_bgy_10_95_c74,kovesi.linear_bgy_10_95_c74,Kovesi,linear_bgy_10_95_c74
-kovesi.linear_bgyw_15_100_c67,kovesi.linear_bgyw_15_100_c67,Kovesi,linear_bgyw_15_100_c67
-kovesi.linear_bgyw_15_100_c68,kovesi.linear_bgyw_15_100_c68,Kovesi,linear_bgyw_15_100_c68
-kovesi.linear_blue_5_95_c73,kovesi.linear_blue_5_95_c73,Kovesi,linear_blue_5_95_c73
-kovesi.linear_blue_95_50_c20,kovesi.linear_blue_95_50_c20,Kovesi,linear_blue_95_50_c20
-kovesi.linear_bmw_5_95_c86,kovesi.linear_bmw_5_95_c86,Kovesi,linear_bmw_5_95_c86
-kovesi.linear_bmw_5_95_c89,kovesi.linear_bmw_5_95_c89,Kovesi,linear_bmw_5_95_c89
-kovesi.linear_bmy_10_95_c71,kovesi.linear_bmy_10_95_c71,Kovesi,linear_bmy_10_95_c71
-kovesi.linear_bmy_10_95_c78,kovesi.linear_bmy_10_95_c78,Kovesi,linear_bmy_10_95_c78
-kovesi.linear_gow_60_85_c27,kovesi.linear_gow_60_85_c27,Kovesi,linear_gow_60_85_c27
-kovesi.linear_gow_65_90_c35,kovesi.linear_gow_65_90_c35,Kovesi,linear_gow_65_90_c35
-kovesi.linear_green_5_95_c69,kovesi.linear_green_5_95_c69,Kovesi,linear_green_5_95_c69
-kovesi.linear_grey_0_100_c0,kovesi.linear_grey_0_100_c0,Kovesi,linear_grey_0_100_c0
-kovesi.linear_grey_10_95_c0,kovesi.linear_grey_10_95_c0,Kovesi,linear_grey_10_95_c0
-kovesi.linear_kry_5_95_c72,kovesi.linear_kry_5_95_c72,Kovesi,linear_kry_5_95_c72
-kovesi.linear_kry_5_98_c75,kovesi.linear_kry_5_98_c75,Kovesi,linear_kry_5_98_c75
-kovesi.linear_kryw_5_100_c64,kovesi.linear_kryw_5_100_c64,Kovesi,linear_kryw_5_100_c64
-kovesi.linear_kryw_5_100_c67,kovesi.linear_kryw_5_100_c67,Kovesi,linear_kryw_5_100_c67
-kovesi.linear_ternary_blue_0_44_c57,kovesi.linear_ternary_blue_0_44_c57,Kovesi,linear_ternary_blue_0_44_c57
-kovesi.linear_ternary_green_0_46_c42,kovesi.linear_ternary_green_0_46_c42,Kovesi,linear_ternary_green_0_46_c42
-kovesi.linear_ternary_red_0_50_c52,kovesi.linear_ternary_red_0_50_c52,Kovesi,linear_ternary_red_0_50_c52
+palName,figName,group,jsName,levels
+coolwarm,misc.coolwarm,Misc,coolwarm,7
+warmcool,misc.warmcool,Misc,warmcool,7
+cubehelix,misc.cubehelix,Misc,cubehelix,7
+gnuplot,misc.gnuplot,Misc,gnuplot,7
+jet,misc.jet,Misc,jet,7
+parula,misc.parula,Misc,parula,7
+tol.rainbow,misc.tol_rainbow,Misc,tol_rainbow,7
+cividis,misc.cividis,Misc,cividis,7
+cubicyf,niccoli.cubicyf,Niccoli,cubicyf,7
+cubicl,niccoli.cubicl,Niccoli,cubicl,7
+isol,niccoli.isol,Niccoli,isol,7
+linearl,niccoli.linearl,Niccoli,linearl,7
+linearlhot,niccoli.linearlhot,Niccoli,linearlhot,7
+brewer.accent,colorbrewer.Accent,ColorBrewer Qualitative,Accent,3|4|5|6|7|8
+brewer.dark2,colorbrewer.Dark2,ColorBrewer Qualitative,Dark2,3|4|5|6|7|8
+brewer.paired,colorbrewer.Paired,ColorBrewer Qualitative,Paired,3|4|5|6|7|8|9|10|11|12
+brewer.pastel1,colorbrewer.Pastel1,ColorBrewer Qualitative,Pastel1,3|4|5|6|7|8|9
+brewer.pastel2,colorbrewer.Pastel2,ColorBrewer Qualitative,Pastel2,3|4|5|6|7|8
+brewer.set1,colorbrewer.Set1,ColorBrewer Qualitative,Set1,3|4|5|6|7|8|9
+brewer.set2,colorbrewer.Set2,ColorBrewer Qualitative,Set2,3|4|5|6|7|8
+brewer.set3,colorbrewer.Set3,ColorBrewer Qualitative,Set3,3|4|5|6|7|8|9|10|11|12
+brewer.blues,colorbrewer.Blues,ColorBrewer Sequential,Blues,3|4|5|6|7|8|9
+brewer.bugn,colorbrewer.BuGn,ColorBrewer Sequential,BuGn,3|4|5|6|7|8|9
+brewer.bupu,colorbrewer.BuPu,ColorBrewer Sequential,BuPu,3|4|5|6|7|8|9
+brewer.gnbu,colorbrewer.GnBu,ColorBrewer Sequential,GnBu,3|4|5|6|7|8|9
+brewer.greens,colorbrewer.Greens,ColorBrewer Sequential,Greens,3|4|5|6|7|8|9
+brewer.greys,colorbrewer.Greys,ColorBrewer Sequential,Greys,3|4|5|6|7|8|9
+brewer.oranges,colorbrewer.Oranges,ColorBrewer Sequential,Oranges,3|4|5|6|7|8|9
+brewer.orrd,colorbrewer.OrRd,ColorBrewer Sequential,OrRd,3|4|5|6|7|8|9
+brewer.pubu,colorbrewer.PuBu,ColorBrewer Sequential,PuBu,3|4|5|6|7|8|9
+brewer.pubugn,colorbrewer.PuBuGn,ColorBrewer Sequential,PuBuGn,3|4|5|6|7|8|9
+brewer.purd,colorbrewer.PuRd,ColorBrewer Sequential,PuRd,3|4|5|6|7|8|9
+brewer.purples,colorbrewer.Purples,ColorBrewer Sequential,Purples,3|4|5|6|7|8|9
+brewer.rdpu,colorbrewer.RdPu,ColorBrewer Sequential,RdPu,3|4|5|6|7|8|9
+brewer.reds,colorbrewer.Reds,ColorBrewer Sequential,Reds,3|4|5|6|7|8|9
+brewer.ylgn,colorbrewer.YlGn,ColorBrewer Sequential,YlGn,3|4|5|6|7|8|9
+brewer.ylgnbu,colorbrewer.YlGnBu,ColorBrewer Sequential,YlGnBu,3|4|5|6|7|8|9
+brewer.ylorbr,colorbrewer.YlOrBr,ColorBrewer Sequential,YlOrBr,3|4|5|6|7|8|9
+brewer.ylorrd,colorbrewer.YlOrRd,ColorBrewer Sequential,YlOrRd,3|4|5|6|7|8|9
+brewer.brbg,colorbrewer.BrBG,ColorBrewer Diverging,BrBG,3|4|5|6|7|8|9|10|11
+brewer.piyg,colorbrewer.PiYG,ColorBrewer Diverging,PiYG,3|4|5|6|7|8|9|10|11
+brewer.prgn,colorbrewer.PRGn,ColorBrewer Diverging,PRGn,3|4|5|6|7|8|9|10|11
+brewer.puor,colorbrewer.PuOr,ColorBrewer Diverging,PuOr,3|4|5|6|7|8|9|10|11
+brewer.rdbu,colorbrewer.RdBu,ColorBrewer Diverging,RdBu,3|4|5|6|7|8|9|10|11
+brewer.rdgy,colorbrewer.RdGy,ColorBrewer Diverging,RdGy,3|4|5|6|7|8|9|10|11
+brewer.rdylbu,colorbrewer.RdYlBu,ColorBrewer Diverging,RdYlBu,3|4|5|6|7|8|9|10|11
+brewer.rdylgn,colorbrewer.RdYlGn,ColorBrewer Diverging,RdYlGn,3|4|5|6|7|8|9|10|11
+brewer.spectral,colorbrewer.Spectral,ColorBrewer Diverging,Spectral,3|4|5|6|7|8|9|10|11
+ocean.thermal,cmocean.Thermal,cmocean,Thermal,7
+ocean.haline,cmocean.Haline,cmocean,Haline,7
+ocean.solar,cmocean.Solar,cmocean,Solar,7
+ocean.ice,cmocean.Ice,cmocean,Ice,7
+ocean.gray,cmocean.Gray,cmocean,Gray,7
+ocean.oxy,cmocean.Oxy,cmocean,Oxy,7
+ocean.deep,cmocean.Deep,cmocean,Deep,7
+ocean.dense,cmocean.Dense,cmocean,Dense,7
+ocean.algae,cmocean.Algae,cmocean,Algae,7
+ocean.matter,cmocean.Matter,cmocean,Matter,7
+ocean.turbid,cmocean.Turbid,cmocean,Turbid,7
+ocean.speed,cmocean.Speed,cmocean,Speed,7
+ocean.amp,cmocean.Amp,cmocean,Amp,7
+ocean.tempo,cmocean.Tempo,cmocean,Tempo,7
+ocean.phase,cmocean.Phase,cmocean,Phase,7
+ocean.balance,cmocean.Balance,cmocean,Balance,7
+ocean.delta,cmocean.Delta,cmocean,Delta,7
+ocean.curl,cmocean.Curl,cmocean,Curl,7
+magma,matplotlib.magma,matplotlib,magma,7
+inferno,matplotlib.inferno,matplotlib,inferno,7
+plasma,matplotlib.plasma,matplotlib,plasma,7
+viridis,matplotlib.viridis,matplotlib,viridis,7
+kovesi.cyclic_grey_15_85_c0,kovesi.cyclic_grey_15_85_c0,Kovesi,cyclic_grey_15_85_c0,7
+kovesi.cyclic_grey_15_85_c0_s25,kovesi.cyclic_grey_15_85_c0_s25,Kovesi,cyclic_grey_15_85_c0_s25,7
+kovesi.cyclic_mrybm_35_75_c68,kovesi.cyclic_mrybm_35_75_c68,Kovesi,cyclic_mrybm_35_75_c68,7
+kovesi.cyclic_mrybm_35_75_c68_s25,kovesi.cyclic_mrybm_35_75_c68_s25,Kovesi,cyclic_mrybm_35_75_c68_s25,7
+kovesi.cyclic_mygbm_30_95_c78,kovesi.cyclic_mygbm_30_95_c78,Kovesi,cyclic_mygbm_30_95_c78,7
+kovesi.cyclic_mygbm_30_95_c78_s25,kovesi.cyclic_mygbm_30_95_c78_s25,Kovesi,cyclic_mygbm_30_95_c78_s25,7
+kovesi.cyclic_wrwbw_40_90_c42,kovesi.cyclic_wrwbw_40_90_c42,Kovesi,cyclic_wrwbw_40_90_c42,7
+kovesi.cyclic_wrwbw_40_90_c42_s25,kovesi.cyclic_wrwbw_40_90_c42_s25,Kovesi,cyclic_wrwbw_40_90_c42_s25,7
+kovesi.diverging_isoluminant_cjm_75_c23,kovesi.diverging_isoluminant_cjm_75_c23,Kovesi,diverging_isoluminant_cjm_75_c23,7
+kovesi.diverging_isoluminant_cjm_75_c24,kovesi.diverging_isoluminant_cjm_75_c24,Kovesi,diverging_isoluminant_cjm_75_c24,7
+kovesi.diverging_isoluminant_cjo_70_c25,kovesi.diverging_isoluminant_cjo_70_c25,Kovesi,diverging_isoluminant_cjo_70_c25,7
+kovesi.diverging_linear_bjr_30_55_c53,kovesi.diverging_linear_bjr_30_55_c53,Kovesi,diverging_linear_bjr_30_55_c53,7
+kovesi.diverging_linear_bjy_30_90_c45,kovesi.diverging_linear_bjy_30_90_c45,Kovesi,diverging_linear_bjy_30_90_c45,7
+kovesi.diverging_rainbow_bgymr_45_85_c67,kovesi.diverging_rainbow_bgymr_45_85_c67,Kovesi,diverging_rainbow_bgymr_45_85_c67,7
+kovesi.diverging_bkr_55_10_c35,kovesi.diverging_bkr_55_10_c35,Kovesi,diverging_bkr_55_10_c35,7
+kovesi.diverging_bky_60_10_c30,kovesi.diverging_bky_60_10_c30,Kovesi,diverging_bky_60_10_c30,7
+kovesi.diverging_bwr_40_95_c42,kovesi.diverging_bwr_40_95_c42,Kovesi,diverging_bwr_40_95_c42,7
+kovesi.diverging_bwr_55_98_c37,kovesi.diverging_bwr_55_98_c37,Kovesi,diverging_bwr_55_98_c37,7
+kovesi.diverging_cwm_80_100_c22,kovesi.diverging_cwm_80_100_c22,Kovesi,diverging_cwm_80_100_c22,7
+kovesi.diverging_gkr_60_10_c40,kovesi.diverging_gkr_60_10_c40,Kovesi,diverging_gkr_60_10_c40,7
+kovesi.diverging_gwr_55_95_c38,kovesi.diverging_gwr_55_95_c38,Kovesi,diverging_gwr_55_95_c38,7
+kovesi.diverging_gwv_55_95_c39,kovesi.diverging_gwv_55_95_c39,Kovesi,diverging_gwv_55_95_c39,7
+kovesi.isoluminant_cgo_70_c39,kovesi.isoluminant_cgo_70_c39,Kovesi,isoluminant_cgo_70_c39,7
+kovesi.isoluminant_cgo_80_c38,kovesi.isoluminant_cgo_80_c38,Kovesi,isoluminant_cgo_80_c38,7
+kovesi.isoluminant_cm_70_c39,kovesi.isoluminant_cm_70_c39,Kovesi,isoluminant_cm_70_c39,7
+kovesi.rainbow_bgyr_35_85_c72,kovesi.rainbow_bgyr_35_85_c72,Kovesi,rainbow_bgyr_35_85_c72,7
+kovesi.rainbow_bgyr_35_85_c73,kovesi.rainbow_bgyr_35_85_c73,Kovesi,rainbow_bgyr_35_85_c73,7
+kovesi.rainbow_bgyrm_35_85_c69,kovesi.rainbow_bgyrm_35_85_c69,Kovesi,rainbow_bgyrm_35_85_c69,7
+kovesi.rainbow_bgyrm_35_85_c71,kovesi.rainbow_bgyrm_35_85_c71,Kovesi,rainbow_bgyrm_35_85_c71,7
+kovesi.linear_bgy_10_95_c74,kovesi.linear_bgy_10_95_c74,Kovesi,linear_bgy_10_95_c74,7
+kovesi.linear_bgyw_15_100_c67,kovesi.linear_bgyw_15_100_c67,Kovesi,linear_bgyw_15_100_c67,7
+kovesi.linear_bgyw_15_100_c68,kovesi.linear_bgyw_15_100_c68,Kovesi,linear_bgyw_15_100_c68,7
+kovesi.linear_blue_5_95_c73,kovesi.linear_blue_5_95_c73,Kovesi,linear_blue_5_95_c73,7
+kovesi.linear_blue_95_50_c20,kovesi.linear_blue_95_50_c20,Kovesi,linear_blue_95_50_c20,7
+kovesi.linear_bmw_5_95_c86,kovesi.linear_bmw_5_95_c86,Kovesi,linear_bmw_5_95_c86,7
+kovesi.linear_bmw_5_95_c89,kovesi.linear_bmw_5_95_c89,Kovesi,linear_bmw_5_95_c89,7
+kovesi.linear_bmy_10_95_c71,kovesi.linear_bmy_10_95_c71,Kovesi,linear_bmy_10_95_c71,7
+kovesi.linear_bmy_10_95_c78,kovesi.linear_bmy_10_95_c78,Kovesi,linear_bmy_10_95_c78,7
+kovesi.linear_gow_60_85_c27,kovesi.linear_gow_60_85_c27,Kovesi,linear_gow_60_85_c27,7
+kovesi.linear_gow_65_90_c35,kovesi.linear_gow_65_90_c35,Kovesi,linear_gow_65_90_c35,7
+kovesi.linear_green_5_95_c69,kovesi.linear_green_5_95_c69,Kovesi,linear_green_5_95_c69,7
+kovesi.linear_grey_0_100_c0,kovesi.linear_grey_0_100_c0,Kovesi,linear_grey_0_100_c0,7
+kovesi.linear_grey_10_95_c0,kovesi.linear_grey_10_95_c0,Kovesi,linear_grey_10_95_c0,7
+kovesi.linear_kry_5_95_c72,kovesi.linear_kry_5_95_c72,Kovesi,linear_kry_5_95_c72,7
+kovesi.linear_kry_5_98_c75,kovesi.linear_kry_5_98_c75,Kovesi,linear_kry_5_98_c75,7
+kovesi.linear_kryw_5_100_c64,kovesi.linear_kryw_5_100_c64,Kovesi,linear_kryw_5_100_c64,7
+kovesi.linear_kryw_5_100_c67,kovesi.linear_kryw_5_100_c67,Kovesi,linear_kryw_5_100_c67,7
+kovesi.linear_ternary_blue_0_44_c57,kovesi.linear_ternary_blue_0_44_c57,Kovesi,linear_ternary_blue_0_44_c57,7
+kovesi.linear_ternary_green_0_46_c42,kovesi.linear_ternary_green_0_46_c42,Kovesi,linear_ternary_green_0_46_c42,7
+kovesi.linear_ternary_red_0_50_c52,kovesi.linear_ternary_red_0_50_c52,Kovesi,linear_ternary_red_0_50_c52,7
 
 
 
