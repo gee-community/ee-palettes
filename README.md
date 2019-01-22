@@ -21,27 +21,31 @@
 <div id="load-the-module" class="section level4">
 <h4>Load the module</h4>
 <p>You can access the ee-palettes through the <code>require()</code> function. Running the following line will make the palettes available to you through JavaScript (JS) object access notation. The returned variable will be a nested series of JS objects ending in lists of hex colors.</p>
-<pre><code>var palettes = require(&#39;users/gena/packages:palettes&#39;);
-</code></pre>
-</div>
-<div id="find-a-palette" class="section level4">
-<h4>Find a palette</h4>
-<p>Find a palette you like from the list below. Each palette is defined by a group and a name, which are separated by a period (JS object dot notation), and a color level.</p>
-<p>To retrieve a desired palette, use JS object notation to specify the group, name, and number of color levels. The number of colors available varies by palette, which are listed following the palette names below. Note that all non-ColorBrewer palettes have only 7 colors, so always use 7 as the ‘color levels’ property for these palettes.</p>
-<pre><code>print(palettes.colorbrewer.RdYlGn);</code></pre>
+
+```javascript
+var palettes = require('users/gena/packages:palettes');
+```
+
 </div>
 <div id="define-a-palette" class="section level4">
 <h4>Define a palette</h4>
+<p>Find a palette you like from the list below. Each palette is defined by a group and a name, which are separated by a period (JS object dot notation), and a color level.</p>
+<p>To retrieve a desired palette, use JS object notation to specify the group, name, and number of color levels. The number of colors available varies by palette, which are listed following the palette names below. Note that all non-ColorBrewer palettes have only 7 colors, so always use 7 as the ‘color levels’ property for these palettes.</p>
+
 <p>After determining the palette group, name, and color level, set the palette as a variable.</p>
-<pre><code>var palette = palettes.colorbrewer.RdYlGn[9];</code></pre>
+
+```javascript
+var palette = palettes.colorbrewer.RdYlGn[9];
+```
+
 </div>
 <div id="apply-a-palette" class="section level4">
 <h4>Apply a palette</h4>
 <p>To apply the defined palette to map data, set the palette variable as the value for the <code>palette</code> key in the <code>visParams</code> object supplied to the <code>Map.addLayer()</code> function. It is also helpful to determine and define appropriate <code>min</code> and <code>max</code> values, to ensure a good stretch. Here is a complete working example for loading the <em>ee-palettes</em> module, defining a palette, and applying it to a MODIS NDVI image.</p>
 
-```
+```javascript
 // Make a palette: a list of hex strings
-var palettes = require('users/gena/packages:palettes';);
+var palettes = require('users/gena/packages:palettes');
 var palette = palettes.colorbrewer.RdYlGn[9];
 
 // Load a MODIS image
@@ -64,13 +68,20 @@ Map.addLayer(ndvi, {min: -0.3, max: 0.7, palette: palette}, 'NDVI');
 <div id="palette-reverse" class="section level4">
 <h4>Palette reverse</h4>
 <p>Reverse a palette with the <code>reverse()</code> function.</p>
-<pre><code>var palette = palettes.colorbrewer.RdYlGn[9].reverse();
-</code></pre>
+
+```javascript
+var palette = palettes.colorbrewer.RdYlGn[9].reverse();
+```
+  
 </div>
 <div id="palette-subset" class="section level4">
 <h4>Palette subset</h4>
 <p>If you only want to use a section of a palette, you can subset the colors you want using the <code>slice()</code> function. For instance, if you only want the pink to yellow section of the <em>misc.gnuplot</em> palette, use the following palette definition.</p>
-<pre><code>var palette = palettes.misc.gnuplot[7].slice(3,7);</code></pre>
+
+```javascript
+var palette = palettes.misc.gnuplot[7].slice(3,7);
+```
+
 </div>
 </div>
 <div id="palettes" class="section level1">
