@@ -39,25 +39,19 @@ var palette = palettes.colorbrewer.RdYlGn[9];
 
 </div>
 <div id="apply-a-palette" class="section level4">
-<h4><a href="https://code.earthengine.google.com/887c87048511af1e4083455d9f79f4d4">Apply a palette</a></h4>
-<p>To apply the defined palette to map data, set the palette variable as the value for the <code>palette</code> key in the <code>visParams</code> object supplied to the <code>Map.addLayer()</code> function. It is also helpful to determine and define appropriate <code>min</code> and <code>max</code> values, to ensure a good stretch. Here is a complete working example for loading the <em>ee-palettes</em> module, defining a palette, and applying it to a MODIS NDVI image.</p>
+<h4>Apply a palette</h4>
+<p>To apply the defined palette to map data, set the palette variable as the value for the <code>palette</code> key in the <code>visParams</code> object supplied to the <code>Map.addLayer()</code> function. It is also helpful to determine and define appropriate <code>min</code> and <code>max</code> values to ensure a good stretch. The following is a simple <a href="https://code.earthengine.google.com/67377ff1bcf7654099a39638f84e15e2">example</a> of loading the <em>ee-palettes</em> module, defining a palette, and applying it to temperature data.</p>
 
 ```javascript
-// Make a palette: a list of hex strings
+// Load some raster data: CONUS mean daily max temperature for January 2010
+var tmax = ee.Image('OREGONSTATE/PRISM/AN81m/201001').select('tmax');
+
+// Get a palette: a list of hex strings
 var palettes = require('users/gena/packages:palettes');
-var palette = palettes.colorbrewer.RdYlGn[9];
-
-// Load a MODIS image
-var img = ee.Image('MODIS/006/MOD09GA/2012_03_09');
-
-// Calculate NDVI
-var ndvi = img.normalizedDifference(['sur_refl_b02', 'sur_refl_b01']);
-
-// Center the map
-Map.setCenter(-120.7671, 40.8328, 7);
-
-// Display NDVI with defined palette stretched between selected min and max
-Map.addLayer(ndvi, {min: -0.3, max: 0.7, palette: palette}, 'NDVI');
+var palette = palettes.misc.tol_rainbow[7];
+ 
+// Display max temp with defined palette stretched between selected min and max
+Map.addLayer(tmax, {min: -11, max: 25, palette: palette}, 'tmax');
 ```
 
 </div>
@@ -66,10 +60,10 @@ Map.addLayer(ndvi, {min: -0.3, max: 0.7, palette: palette}, 'NDVI');
 <h1>Palette manipulation</h1>
 <div id="palette-reverse" class="section level4">
 <h4>Palette reverse</h4>
-<p>Reverse a palette with <code>.slice(0).reverse()</code>. The array is sliced before reversing to create a copy so that the original array order is preserved in the imported palette JS object; <code>Array.reverse()</code> is a mutable JS function, it reverses the actual array included from the package.</p>
+<p>Reverse a palette with the <code>reverse()</code> function. Note that this will reverse the palette within the imported palette JS object, as well as the palette varible you happen to define. If you wish to leave the imported palette JS object unaltered, make a copy of the palette and then reverse it: <code>.slice(0).reverse()</code>.
 
 ```javascript
-var palette = palettes.colorbrewer.RdYlGn[9].slice(0).reverse();
+var palette = palettes.colorbrewer.RdYlGn[9].reverse();
 ```
   
 </div>
