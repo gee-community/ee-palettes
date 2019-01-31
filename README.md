@@ -40,7 +40,7 @@ var palette = palettes.colorbrewer.RdYlGn[9];
 </div>
 <div id="apply-a-palette" class="section level4">
 <h4>Apply a palette</h4>
-<p>To apply the defined palette to map data, set the palette variable as the value for the <code>palette</code> key in the <code>visParams</code> object supplied to the <code>Map.addLayer()</code> function. It is also helpful to determine and define appropriate <code>min</code> and <code>max</code> values to ensure a good stretch. The following is a simple <a href="https://code.earthengine.google.com/67377ff1bcf7654099a39638f84e15e2">example</a> of loading the <em>ee-palettes</em> module, defining a palette, and applying it to temperature data.</p>
+<p>To apply the defined palette to map data, set the palette variable as the value for the <code>palette</code> key in the <code>visParams</code> object supplied to the <code>Map.addLayer()</code> function. It is also helpful to determine and define appropriate <code>min</code> and <code>max</code> values to ensure a good stretch. The following is a simple <a href="https://code.earthengine.google.com/67377ff1bcf7654099a39638f84e15e2" target="_blank">example</a> of loading the <em>ee-palettes</em> module, defining a palette, and applying it to temperature data.</p>
 
 ```javascript
 // Load some raster data: CONUS mean daily max temperature for January 2010
