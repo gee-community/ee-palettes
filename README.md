@@ -66,10 +66,10 @@ Map.addLayer(ndvi, {min: -0.3, max: 0.7, palette: palette}, 'NDVI');
 <h1>Palette manipulation</h1>
 <div id="palette-reverse" class="section level4">
 <h4>Palette reverse</h4>
-<p>Reverse a palette with the <code>reverse()</code> function.</p>
+<p>Reverse a palette with <code>.slice(0).reverse()</code>. The array is sliced before reversing to create a copy so that the original array order is preserved in the imported palette JS object; <code>Array.reverse()</code> is a mutable JS function, it reverses the actual array included from the package.</p>
 
 ```javascript
-var palette = palettes.colorbrewer.RdYlGn[9].reverse();
+var palette = palettes.colorbrewer.RdYlGn[9].slice(0).reverse();
 ```
   
 </div>
