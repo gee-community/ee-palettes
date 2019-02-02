@@ -14,7 +14,7 @@
 </div>
 <div id="add-the-module" class="section level1">
 <h1>Add the module</h1>
-<p>Visit this <a href="https://code.earthengine.google.com/?accept_repo=users/gena/palettes">URL</a> to add the module to the Reader repository of your EE account. After the module is added, you can find the source code in the Script Manager under: <em>Reader:users/gena/packages/palettes</em>.</p>
+<p>Visit this <a href="https://code.earthengine.google.com/?accept_repo=users/gena/packages">URL</a> to add the module to the Reader repository of your EE account. After the module is added, you can find the source code in the Script Manager under: <em>Reader:users/gena/packages/palettes</em>.</p>
 </div>
 <div id="how-to-use" class="section level1">
 <h1>How to use</h1>
