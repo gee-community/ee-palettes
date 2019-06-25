@@ -11,7 +11,8 @@ Contributors:
 
 ## cmocean
 
-```js{
+```js
+{
   Thermal: {7: ['042333', '2c3395', '744992', 'b15f82', 'eb7958', 'fbb43d', 'e8fa5b']},
   Haline: {7: ['2a186c', '14439c', '206e8b', '3c9387', '5ab978', 'aad85c', 'fdef9a']},
   Solar: {7: ['331418', '682325', '973b1c', 'b66413', 'cb921a', 'dac62f', 'e1fd4b']},
