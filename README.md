@@ -102,7 +102,7 @@ var palette = palettes.misc.gnuplot[7].slice(3,7);
 <div id="crameri" class="section level3">
 <h3>crameri</h3>
 <p>
-<img src="./pals/acton.png"> crameri.acton | 10,25,50<br/>
+<img src="./pals/action.png"> crameri.action | 10,25,50<br/>
 <img src="./pals/bamako.png"> crameri.bamako | 10,25,50<br/>
 <img src="./pals/batlow.png"> crameri.batlow | 10,25,50<br/>
 <img src="./pals/berlin.png"> crameri.berlin | 10,25,50<br/>
