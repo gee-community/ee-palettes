@@ -99,6 +99,34 @@ var palette = palettes.misc.gnuplot[7].slice(3,7);
 <h3>cmocean</h3>
 <p><img src="./pals/Thermal.png"> cmocean.Thermal | 7<br/><img src="./pals/Haline.png"> cmocean.Haline | 7<br/><img src="./pals/Solar.png"> cmocean.Solar | 7<br/><img src="./pals/Ice.png"> cmocean.Ice | 7<br/><img src="./pals/Gray.png"> cmocean.Gray | 7<br/><img src="./pals/Oxy.png"> cmocean.Oxy | 7<br/><img src="./pals/Deep.png"> cmocean.Deep | 7<br/><img src="./pals/Dense.png"> cmocean.Dense | 7<br/><img src="./pals/Algae.png"> cmocean.Algae | 7<br/><img src="./pals/Matter.png"> cmocean.Matter | 7<br/><img src="./pals/Turbid.png"> cmocean.Turbid | 7<br/><img src="./pals/Speed.png"> cmocean.Speed | 7<br/><img src="./pals/Amp.png"> cmocean.Amp | 7<br/><img src="./pals/Tempo.png"> cmocean.Tempo | 7<br/><img src="./pals/Phase.png"> cmocean.Phase | 7<br/><img src="./pals/Balance.png"> cmocean.Balance | 7<br/><img src="./pals/Delta.png"> cmocean.Delta | 7<br/><img src="./pals/Curl.png"> cmocean.Curl | 7<br/></p>
 </div>
+<div id="crameri" class="section level3">
+<h3>crameri</h3>
+<p>
+<img src="./pals/acton.png"> crameri.acton | 10,25,50<br/>
+<img src="./pals/bamako.png"> crameri.bamako | 10,25,50<br/>
+<img src="./pals/batlow.png"> crameri.batlow | 10,25,50<br/>
+<img src="./pals/berlin.png"> crameri.berlin | 10,25,50<br/>
+<img src="./pals/bilbao.png"> crameri.bilbao | 10,25,50<br/>
+<img src="./pals/broc.png"> crameri.broc | 10,25,50<br/>
+<img src="./pals/buda.png"> crameri.buda | 10,25,50<br/>
+<img src="./pals/cork.png"> crameri.cork | 10,25,50<br/>
+<img src="./pals/davos.png"> crameri.davos | 10,25,50<br/>
+<img src="./pals/devon.png"> crameri.devon | 10,25,50<br/>
+<img src="./pals/grayC.png"> crameri.grayC | 10,25,50<br/>
+<img src="./pals/hawaii.png"> crameri.hawaii | 10,25,50<br/>
+<img src="./pals/imola.png"> crameri.imola | 10,25,50<br/>
+<img src="./pals/lajolla.png"> crameri.lajolla | 10,25,50<br/>
+<img src="./pals/lapaz.png"> crameri.lapaz | 10,25,50<br/>
+<img src="./pals/lisbon.png"> crameri.lisbon | 10,25,50<br/>
+<img src="./pals/nuuk.png"> crameri.nuuk | 10,25,50<br/>
+<img src="./pals/oleron.png"> crameri.oleron | 10,25,50<br/>
+<img src="./pals/oslo.png"> crameri.oslo | 10,25,50<br/>
+<img src="./pals/roma.png"> crameri.roma | 10,25,50<br/>
+<img src="./pals/tofino.png"> crameri.tofino | 10,25,50<br/>
+<img src="./pals/tokyo.png"> crameri.tokyo | 10,25,50<br/>
+<img src="./pals/turku.png"> crameri.turku | 10,25,50<br/>
+<img src="./pals/vik.png"> crameri.vik | 10,25,50<br/>
+</div>
 <div id="niccoli" class="section level3">
 <h3>Niccoli</h3>
 <p><img src="./pals/cubicyf.png"> niccoli.cubicyf | 7<br/><img src="./pals/cubicl.png"> niccoli.cubicl | 7<br/><img src="./pals/isol.png"> niccoli.isol | 7<br/><img src="./pals/linearl.png"> niccoli.linearl | 7<br/><img src="./pals/linearlhot.png"> niccoli.linearlhot | 7<br/></p>
