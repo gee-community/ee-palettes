@@ -83,22 +83,27 @@ var palette = palettes.misc.gnuplot[7].slice(3,7);
 <h3>ColorBrewer Sequential</h3>
 <p><img src="./pals/Blues.png"> colorbrewer.Blues | 3,4,5,6,7,8,9<br/><img src="./pals/BuGn.png"> colorbrewer.BuGn | 3,4,5,6,7,8,9<br/><img src="./pals/BuPu.png"> colorbrewer.BuPu | 3,4,5,6,7,8,9<br/><img src="./pals/GnBu.png"> colorbrewer.GnBu | 3,4,5,6,7,8,9<br/><img src="./pals/Greens.png"> colorbrewer.Greens | 3,4,5,6,7,8,9<br/><img src="./pals/Greys.png"> colorbrewer.Greys | 3,4,5,6,7,8,9<br/><img src="./pals/Oranges.png"> colorbrewer.Oranges | 3,4,5,6,7,8,9<br/><img src="./pals/OrRd.png"> colorbrewer.OrRd | 3,4,5,6,7,8,9<br/><img src="./pals/PuBu.png"> colorbrewer.PuBu | 3,4,5,6,7,8,9<br/><img src="./pals/PuBuGn.png"> colorbrewer.PuBuGn | 3,4,5,6,7,8,9<br/><img src="./pals/PuRd.png"> colorbrewer.PuRd | 3,4,5,6,7,8,9<br/><img src="./pals/Purples.png"> colorbrewer.Purples | 3,4,5,6,7,8,9<br/><img src="./pals/RdPu.png"> colorbrewer.RdPu | 3,4,5,6,7,8,9<br/><img src="./pals/Reds.png"> colorbrewer.Reds | 3,4,5,6,7,8,9<br/><img src="./pals/YlGn.png"> colorbrewer.YlGn | 3,4,5,6,7,8,9<br/><img src="./pals/YlGnBu.png"> colorbrewer.YlGnBu | 3,4,5,6,7,8,9<br/><img src="./pals/YlOrBr.png"> colorbrewer.YlOrBr | 3,4,5,6,7,8,9<br/><img src="./pals/YlOrRd.png"> colorbrewer.YlOrRd | 3,4,5,6,7,8,9<br/></p>
 </div>
+
 <div id="colorbrewer-diverging" class="section level3">
 <h3>ColorBrewer Diverging</h3>
 <p><img src="./pals/BrBG.png"> colorbrewer.BrBG | 3,4,5,6,7,8,9,10,11<br/><img src="./pals/PiYG.png"> colorbrewer.PiYG | 3,4,5,6,7,8,9,10,11<br/><img src="./pals/PRGn.png"> colorbrewer.PRGn | 3,4,5,6,7,8,9,10,11<br/><img src="./pals/PuOr.png"> colorbrewer.PuOr | 3,4,5,6,7,8,9,10,11<br/><img src="./pals/RdBu.png"> colorbrewer.RdBu | 3,4,5,6,7,8,9,10,11<br/><img src="./pals/RdGy.png"> colorbrewer.RdGy | 3,4,5,6,7,8,9,10,11<br/><img src="./pals/RdYlBu.png"> colorbrewer.RdYlBu | 3,4,5,6,7,8,9,10,11<br/><img src="./pals/RdYlGn.png"> colorbrewer.RdYlGn | 3,4,5,6,7,8,9,10,11<br/><img src="./pals/Spectral.png"> colorbrewer.Spectral | 3,4,5,6,7,8,9,10,11<br/></p>
 </div>
+
 <div id="colorbrewer-qualitative" class="section level3">
 <h3>ColorBrewer Qualitative</h3>
 <p><img src="./pals/Accent.png"> colorbrewer.Accent | 3,4,5,6,7,8<br/><img src="./pals/Dark2.png"> colorbrewer.Dark2 | 3,4,5,6,7,8<br/><img src="./pals/Paired.png"> colorbrewer.Paired | 3,4,5,6,7,8,9,10,11,12<br/><img src="./pals/Pastel1.png"> colorbrewer.Pastel1 | 3,4,5,6,7,8,9<br/><img src="./pals/Pastel2.png"> colorbrewer.Pastel2 | 3,4,5,6,7,8<br/><img src="./pals/Set1.png"> colorbrewer.Set1 | 3,4,5,6,7,8,9<br/><img src="./pals/Set2.png"> colorbrewer.Set2 | 3,4,5,6,7,8<br/><img src="./pals/Set3.png"> colorbrewer.Set3 | 3,4,5,6,7,8,9,10,11,12<br/></p>
 </div>
+
 <div id="matplotlib" class="section level3">
 <h3>matplotlib</h3>
 <p><img src="./pals/magma.png"> matplotlib.magma | 7<br/><img src="./pals/inferno.png"> matplotlib.inferno | 7<br/><img src="./pals/plasma.png"> matplotlib.plasma | 7<br/><img src="./pals/viridis.png"> matplotlib.viridis | 7<br/></p>
 </div>
+
 <div id="cmocean" class="section level3">
 <h3>cmocean</h3>
 <p><img src="./pals/Thermal.png"> cmocean.Thermal | 7<br/><img src="./pals/Haline.png"> cmocean.Haline | 7<br/><img src="./pals/Solar.png"> cmocean.Solar | 7<br/><img src="./pals/Ice.png"> cmocean.Ice | 7<br/><img src="./pals/Gray.png"> cmocean.Gray | 7<br/><img src="./pals/Oxy.png"> cmocean.Oxy | 7<br/><img src="./pals/Deep.png"> cmocean.Deep | 7<br/><img src="./pals/Dense.png"> cmocean.Dense | 7<br/><img src="./pals/Algae.png"> cmocean.Algae | 7<br/><img src="./pals/Matter.png"> cmocean.Matter | 7<br/><img src="./pals/Turbid.png"> cmocean.Turbid | 7<br/><img src="./pals/Speed.png"> cmocean.Speed | 7<br/><img src="./pals/Amp.png"> cmocean.Amp | 7<br/><img src="./pals/Tempo.png"> cmocean.Tempo | 7<br/><img src="./pals/Phase.png"> cmocean.Phase | 7<br/><img src="./pals/Balance.png"> cmocean.Balance | 7<br/><img src="./pals/Delta.png"> cmocean.Delta | 7<br/><img src="./pals/Curl.png"> cmocean.Curl | 7<br/></p>
 </div>
+
 <div id="crameri" class="section level3">
 <h3>crameri</h3>
 <p>
@@ -127,20 +132,41 @@ var palette = palettes.misc.gnuplot[7].slice(3,7);
 <img src="./pals/turku.png"> crameri.turku | 10,25,50<br/>
 <img src="./pals/vik.png"> crameri.vik | 10,25,50<br/>
 </div>
+
 <div id="niccoli" class="section level3">
 <h3>Niccoli</h3>
-<p><img src="./pals/cubicyf.png"> niccoli.cubicyf | 7<br/><img src="./pals/cubicl.png"> niccoli.cubicl | 7<br/><img src="./pals/isol.png"> niccoli.isol | 7<br/><img src="./pals/linearl.png"> niccoli.linearl | 7<br/><img src="./pals/linearlhot.png"> niccoli.linearlhot | 7<br/></p>
+<p>
+<img src="./pals/cubicyf.png"> niccoli.cubicyf | 7<br/>
+<img src="./pals/cubicl.png"> niccoli.cubicl | 7<br/>
+<img src="./pals/isol.png"> niccoli.isol | 7<br/>
+<img src="./pals/linearl.png"> niccoli.linearl | 7<br/>
+<img src="./pals/linearlhot.png"> niccoli.linearlhot | 7<br/>
+</p>
 </div>
+
 <div id="kovesi" class="section level3">
 <h3>Kovesi</h3>
 <p><img src="./pals/cyclic_grey_15_85_c0.png"> kovesi.cyclic_grey_15_85_c0 | 7<br/><img src="./pals/cyclic_grey_15_85_c0_s25.png"> kovesi.cyclic_grey_15_85_c0_s25 | 7<br/><img src="./pals/cyclic_mrybm_35_75_c68.png"> kovesi.cyclic_mrybm_35_75_c68 | 7<br/><img src="./pals/cyclic_mrybm_35_75_c68_s25.png"> kovesi.cyclic_mrybm_35_75_c68_s25 | 7<br/><img src="./pals/cyclic_mygbm_30_95_c78.png"> kovesi.cyclic_mygbm_30_95_c78 | 7<br/><img src="./pals/cyclic_mygbm_30_95_c78_s25.png"> kovesi.cyclic_mygbm_30_95_c78_s25 | 7<br/><img src="./pals/cyclic_wrwbw_40_90_c42.png"> kovesi.cyclic_wrwbw_40_90_c42 | 7<br/><img src="./pals/cyclic_wrwbw_40_90_c42_s25.png"> kovesi.cyclic_wrwbw_40_90_c42_s25 | 7<br/><img src="./pals/diverging_isoluminant_cjm_75_c23.png"> kovesi.diverging_isoluminant_cjm_75_c23 | 7<br/><img src="./pals/diverging_isoluminant_cjm_75_c24.png"> kovesi.diverging_isoluminant_cjm_75_c24 | 7<br/><img src="./pals/diverging_isoluminant_cjo_70_c25.png"> kovesi.diverging_isoluminant_cjo_70_c25 | 7<br/><img src="./pals/diverging_linear_bjr_30_55_c53.png"> kovesi.diverging_linear_bjr_30_55_c53 | 7<br/><img src="./pals/diverging_linear_bjy_30_90_c45.png"> kovesi.diverging_linear_bjy_30_90_c45 | 7<br/><img src="./pals/diverging_rainbow_bgymr_45_85_c67.png"> kovesi.diverging_rainbow_bgymr_45_85_c67 | 7<br/><img src="./pals/diverging_bkr_55_10_c35.png"> kovesi.diverging_bkr_55_10_c35 | 7<br/><img src="./pals/diverging_bky_60_10_c30.png"> kovesi.diverging_bky_60_10_c30 | 7<br/><img src="./pals/diverging_bwr_40_95_c42.png"> kovesi.diverging_bwr_40_95_c42 | 7<br/><img src="./pals/diverging_bwr_55_98_c37.png"> kovesi.diverging_bwr_55_98_c37 | 7<br/><img src="./pals/diverging_cwm_80_100_c22.png"> kovesi.diverging_cwm_80_100_c22 | 7<br/><img src="./pals/diverging_gkr_60_10_c40.png"> kovesi.diverging_gkr_60_10_c40 | 7<br/><img src="./pals/diverging_gwr_55_95_c38.png"> kovesi.diverging_gwr_55_95_c38 | 7<br/><img src="./pals/diverging_gwv_55_95_c39.png"> kovesi.diverging_gwv_55_95_c39 | 7<br/><img src="./pals/isoluminant_cgo_70_c39.png"> kovesi.isoluminant_cgo_70_c39 | 7<br/><img src="./pals/isoluminant_cgo_80_c38.png"> kovesi.isoluminant_cgo_80_c38 | 7<br/><img src="./pals/isoluminant_cm_70_c39.png"> kovesi.isoluminant_cm_70_c39 | 7<br/><img src="./pals/rainbow_bgyr_35_85_c72.png"> kovesi.rainbow_bgyr_35_85_c72 | 7<br/><img src="./pals/rainbow_bgyr_35_85_c73.png"> kovesi.rainbow_bgyr_35_85_c73 | 7<br/><img src="./pals/rainbow_bgyrm_35_85_c69.png"> kovesi.rainbow_bgyrm_35_85_c69 | 7<br/><img src="./pals/rainbow_bgyrm_35_85_c71.png"> kovesi.rainbow_bgyrm_35_85_c71 | 7<br/><img src="./pals/linear_bgy_10_95_c74.png"> kovesi.linear_bgy_10_95_c74 | 7<br/><img src="./pals/linear_bgyw_15_100_c67.png"> kovesi.linear_bgyw_15_100_c67 | 7<br/><img src="./pals/linear_bgyw_15_100_c68.png"> kovesi.linear_bgyw_15_100_c68 | 7<br/><img src="./pals/linear_blue_5_95_c73.png"> kovesi.linear_blue_5_95_c73 | 7<br/><img src="./pals/linear_blue_95_50_c20.png"> kovesi.linear_blue_95_50_c20 | 7<br/><img src="./pals/linear_bmw_5_95_c86.png"> kovesi.linear_bmw_5_95_c86 | 7<br/><img src="./pals/linear_bmw_5_95_c89.png"> kovesi.linear_bmw_5_95_c89 | 7<br/><img src="./pals/linear_bmy_10_95_c71.png"> kovesi.linear_bmy_10_95_c71 | 7<br/><img src="./pals/linear_bmy_10_95_c78.png"> kovesi.linear_bmy_10_95_c78 | 7<br/><img src="./pals/linear_gow_60_85_c27.png"> kovesi.linear_gow_60_85_c27 | 7<br/><img src="./pals/linear_gow_65_90_c35.png"> kovesi.linear_gow_65_90_c35 | 7<br/><img src="./pals/linear_green_5_95_c69.png"> kovesi.linear_green_5_95_c69 | 7<br/><img src="./pals/linear_grey_0_100_c0.png"> kovesi.linear_grey_0_100_c0 | 7<br/><img src="./pals/linear_grey_10_95_c0.png"> kovesi.linear_grey_10_95_c0 | 7<br/><img src="./pals/linear_kry_5_95_c72.png"> kovesi.linear_kry_5_95_c72 | 7<br/><img src="./pals/linear_kry_5_98_c75.png"> kovesi.linear_kry_5_98_c75 | 7<br/><img src="./pals/linear_kryw_5_100_c64.png"> kovesi.linear_kryw_5_100_c64 | 7<br/><img src="./pals/linear_kryw_5_100_c67.png"> kovesi.linear_kryw_5_100_c67 | 7<br/><img src="./pals/linear_ternary_blue_0_44_c57.png"> kovesi.linear_ternary_blue_0_44_c57 | 7<br/><img src="./pals/linear_ternary_green_0_46_c42.png"> kovesi.linear_ternary_green_0_46_c42 | 7<br/><img src="./pals/linear_ternary_red_0_50_c52.png"> kovesi.linear_ternary_red_0_50_c52 | 7<br/></p>
 </div>
+
 <div id="misc" class="section level3">
 <h3>Misc</h3>
-<p><img src="./pals/coolwarm.png"> misc.coolwarm | 7<br/><img src="./pals/warmcool.png"> misc.warmcool | 7<br/><img src="./pals/cubehelix.png"> misc.cubehelix | 7<br/><img src="./pals/gnuplot.png"> misc.gnuplot | 7<br/><img src="./pals/jet.png"> misc.jet | 7<br/><img src="./pals/parula.png"> misc.parula | 7<br/><img src="./pals/tol_rainbow.png"> misc.tol_rainbow | 7<br/><img src="./pals/cividis.png"> misc.cividis | 7<br/></p>
+<p>
+<img src="./pals/coolwarm.png"> misc.coolwarm | 7<br/>
+<img src="./pals/warmcool.png"> misc.warmcool | 7<br/>
+<img src="./pals/cubehelix.png"> misc.cubehelix | 7<br/>
+<img src="./pals/gnuplot.png"> misc.gnuplot | 7<br/>
+<img src="./pals/jet.png"> misc.jet | 7<br/>
+<img src="./pals/parula.png"> misc.parula | 7<br/>
+<img src="./pals/tol_rainbow.png"> misc.tol_rainbow | 7<br/>
+<img src="./pals/cividis.png"> misc.cividis | 7<br/>
+<img src="./pals/BlueFluorite.png"> misc.BlueFluorite<br/>
+</p>
 </div>
 </div>
+
 <div id="references" class="section level1">
 <h1>References</h1>
-<p>Palettes were derived from the <em>pals</em> R library. Please see its <a href="https://cran.r-project.org/web/packages/pals/pals.pdf">documentation</a> and <a href="https://github.com/kwstat/pals">repository</a> for palette source information.</p>
+<p>Most palettes were derived from the <em>pals</em> R library. Please see its <a href="https://cran.r-project.org/web/packages/pals/pals.pdf">documentation</a> and <a href="https://github.com/kwstat/pals">repository</a> for palette source information.</p>
+<p>misc.BlueFluorite source: https://gist.github.com/jscarto/6cc7f547bb7d5d9acda51e5c15256b01
 </div>
