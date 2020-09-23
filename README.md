@@ -160,7 +160,7 @@ var palette = palettes.misc.gnuplot[7].slice(3,7);
 <img src="./pals/parula.png"> misc.parula | 7<br/>
 <img src="./pals/tol_rainbow.png"> misc.tol_rainbow | 7<br/>
 <img src="./pals/cividis.png"> misc.cividis | 7<br/>
-<img src="./pals/BlueFluorite.png"> misc.BlueFluorite<br/>
+<img src="./pals/BlueFluorite.png"> misc.BlueFluorite | 7,256<br/>
 </p>
 </div>
 </div>
